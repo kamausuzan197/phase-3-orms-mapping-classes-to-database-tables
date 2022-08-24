@@ -37,12 +37,12 @@ class Song
   end
 
   def self.create(name:, album:)
-    song=Song.new(name:name, alum: album)
+    song=Song.new(name:name, album: album)
     song.save
   end
 end
 
 azimimio =Song.new(name: "Gold Digger", album: "Late Registration")
- puts azimimio.name
- puts azimimio.album
+  azimimio.name
+azimimio.album
 
